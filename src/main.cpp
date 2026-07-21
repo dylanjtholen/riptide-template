@@ -22,9 +22,9 @@ using std::string;
 
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
 
-pros::MotorGroup leftSide({0, 0}, pros::MotorGearset::blue, pros::v5::MotorEncoderUnits::degrees);
-pros::MotorGroup rightSide({0, 0}, pros::MotorGearset::blue, pros::v5::MotorEncoderUnits::degrees);
-pros::IMU inertial(0);
+pros::MotorGroup leftSide({/*replace with ports*/ 0, 0}, pros::MotorGearset::blue, pros::v5::MotorEncoderUnits::degrees);
+pros::MotorGroup rightSide({/*replace with ports*/ 0, 0}, pros::MotorGearset::blue, pros::v5::MotorEncoderUnits::degrees);
+pros::IMU inertial(/*replace with port*/ 0);
 
 // robot measurements
 const float wheelDiam = 3.25;
