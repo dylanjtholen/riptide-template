@@ -1,6 +1,6 @@
 # RIPTide Template
 
-This project is a PROS V5 template for a basic robot codebase with:
+This project is a PROS V5 template developed by 8110Z with:
 
 -   a starter arcade drive setup
 -   a chassis helper class for autonomous motion
